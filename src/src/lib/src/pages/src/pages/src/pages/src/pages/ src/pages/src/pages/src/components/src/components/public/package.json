@@ -1,0 +1,19 @@
+{
+  "name": "smartwater-system",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.8.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "react-hot-toast": "^2.4.0",
+    "lucide-react": "^0.263.1"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.0"
+  }
+}
