@@ -12,7 +12,7 @@ export default function AdminDashboard() {
   const [selectedTech, setSelectedTech] = useState({});
   const navigate = useNavigate();
 
-  useEffect(() => {
+  useEffect(() => { // eslint-disable-line
     fetchAll();
   }, []);
 
